@@ -5,10 +5,9 @@ import Reveal from '../components/Reveal.jsx'
 import Marquee from '../components/Marquee.jsx'
 import SpotlightCard from '../components/SpotlightCard.jsx'
 import Counter from '../components/Counter.jsx'
-import ProjectCard from '../components/ProjectCard.jsx'
 import CTA from '../components/CTA.jsx'
 import { Arrow } from '../components/Icons.jsx'
-import { services, steps, projects, differentials } from '../data.jsx'
+import { services, steps, differentials } from '../data.jsx'
 
 const stack = ['React', 'Next.js', 'Inteligência Artificial', 'Design Generativo', 'SEO Avançado', 'Vercel', 'TypeScript', 'Automação', 'Chatbots', 'Performance 99+']
 
@@ -139,28 +138,6 @@ export default function Home() {
                 <h3 className="h3">{s.title}</h3>
                 <p>{s.text}</p>
                 <span className="step__time">{s.time}</span>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PORTFÓLIO */}
-      <section className="section">
-        <div className="container">
-          <div className="sec-head">
-            <Reveal>
-              <span className="eyebrow">Projetos</span>
-              <h2 className="h2">Trabalhos <span className="gold-text">selecionados.</span></h2>
-            </Reveal>
-            <Reveal delay={120}>
-              <Link to="/portfolio" className="btn btn--ghost">Ver portfólio <Arrow /></Link>
-            </Reveal>
-          </div>
-          <div className="grid-2">
-            {projects.slice(0, 4).map((p, i) => (
-              <Reveal key={p.title} delay={(i % 2) * 120}>
-                <ProjectCard {...p} />
               </Reveal>
             ))}
           </div>

@@ -7,7 +7,6 @@ export const links = [
   { to: '/', label: 'Início' },
   { to: '/servicos', label: 'Serviços' },
   { to: '/processo', label: 'Processo' },
-  { to: '/portfolio', label: 'Portfólio' },
   { to: '/sobre', label: 'Sobre' },
   { to: '/contato', label: 'Contato' },
 ]

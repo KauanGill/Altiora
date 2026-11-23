@@ -15,7 +15,7 @@ export default function CTA({
           <p className="lead">{lead}</p>
           <div className="btn-row">
             <Link to="/contato" className="btn btn--gold">Solicitar orçamento <Arrow /></Link>
-            <Link to="/portfolio" className="btn btn--ghost">Ver projetos</Link>
+            <Link to="/servicos" className="btn btn--ghost">Ver serviços</Link>
           </div>
         </Reveal>
       </div>

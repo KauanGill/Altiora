@@ -74,15 +74,3 @@ export const steps = [
     tags: ['Deploy', 'Analytics', 'Otimização'],
   },
 ]
-
-// Projetos de exemplo — substitua pelos cases reais da Altiora.
-export const projects = [
-  { title: 'Aurum Joalheria', category: 'E-commerce', accent: '#D4AF6A' },
-  { title: 'Nexa Clínica', category: 'Institucional', accent: '#E8E4D8' },
-  { title: 'Vértice Advocacia', category: 'Institucional', accent: '#B8893B' },
-  { title: 'Lumen Arquitetura', category: 'Landing page', accent: '#F3D9A0' },
-  { title: 'Orbe Imóveis', category: 'Institucional', accent: '#9C8A6A' },
-  { title: 'Noir Café', category: 'E-commerce', accent: '#C9A45C' },
-  { title: 'Pulse Fitness', category: 'Landing page', accent: '#E0C48A' },
-  { title: 'Atlas Consultoria', category: 'Chatbot IA', accent: '#D9D4C5' },
-]
